@@ -1,0 +1,24 @@
+{
+  "files": {
+    "main.css": "/CC1_react/static/css/main.2b8c71aa.css",
+    "main.js": "/CC1_react/static/js/main.2d964974.js",
+    "static/js/787.47cfb777.chunk.js": "/CC1_react/static/js/787.47cfb777.chunk.js",
+    "static/media/image 1.jpg": "/CC1_react/static/media/image 1.7b7255de87d9266733b2.jpg",
+    "static/media/image 4.jpg": "/CC1_react/static/media/image 4.373265eb2e0f43c1f8d9.jpg",
+    "static/media/image2.jpg": "/CC1_react/static/media/image2.95574f499f0534513ce6.jpg",
+    "static/media/image3.jpg": "/CC1_react/static/media/image3.751f1b0df1c5390d96de.jpg",
+    "static/media/united-kingdom.svg": "/CC1_react/static/media/united-kingdom.2d19fed4fb288f7b8a8591bbe3b70429.svg",
+    "static/media/spain.svg": "/CC1_react/static/media/spain.32e1e4891a5c1d5ce79f04ec7671d151.svg",
+    "static/media/left-arrow.svg": "/CC1_react/static/media/left-arrow.da21225bcf530088451874c9e21c215a.svg",
+    "static/media/right-arrow.svg": "/CC1_react/static/media/right-arrow.d19ce8f87764b5901ed2ca6f0ff22d03.svg",
+    "static/media/france.svg": "/CC1_react/static/media/france.40c79af5ce5231775ae018679c075255.svg",
+    "index.html": "/CC1_react/index.html",
+    "main.2b8c71aa.css.map": "/CC1_react/static/css/main.2b8c71aa.css.map",
+    "main.2d964974.js.map": "/CC1_react/static/js/main.2d964974.js.map",
+    "787.47cfb777.chunk.js.map": "/CC1_react/static/js/787.47cfb777.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.2b8c71aa.css",
+    "static/js/main.2d964974.js"
+  ]
+}
