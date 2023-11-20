@@ -1,0 +1,11 @@
+.container {
+    padding: 50px 10vw;
+}
+.content-txt {
+    text-align: justify;
+}
+
+.dark-body{
+    background: #222;
+    color: #f1f1f1;
+}

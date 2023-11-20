@@ -1,0 +1,55 @@
+/* Menu.css */
+.nav-top {
+  background-color: rgb(85, 150, 128);
+  padding: 20px;
+  text-align: center;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  color: #fff;
+}
+
+h1 {
+  color: #fff;
+}
+
+.menu-icon {
+  cursor: pointer;
+  font-size: 24px;
+  color: #fff;
+}
+
+.links {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  flex-grow: 1;
+}
+
+.links a {
+  color: rgb(253, 248, 248);
+  text-decoration: none;
+}
+
+/* Responsive styles */
+@media only screen and (max-width: 768px) {
+  .links {
+    display: flex;
+    flex-direction: column;
+    position: absolute;
+    top: 70px;
+    border-bottom-right-radius: 6px;
+    left: 0;
+    width: 30%;
+    background-color:rgb(119, 223, 188);
+    visibility: hidden; /* Initially hide the links */
+  }
+
+  .links.show {
+    visibility: visible; /* Show the links when the menu is open */
+  }
+
+  .menu-icon.hide-on-mobile {
+    display: none;
+  }
+}

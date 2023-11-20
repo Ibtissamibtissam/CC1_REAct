@@ -1,0 +1,50 @@
+/* Ajoutez ces styles à votre fichier CSS correspondant */
+
+.za {
+    margin-left: 700px;
+    padding-left: 90px;
+  }
+  
+  .z,
+  .z2,
+  .z3 {
+    width: 40px;
+    height: 40px;
+    cursor: pointer;
+    border-radius: 50%;
+  }
+  
+  .z {
+    margin-left: 90px;
+  }
+  
+  .z2 {
+    margin-left: 43px;
+    margin-top: -40px;
+  }
+  
+  .z3 {
+    margin-top: -44px;
+    margin-left: 140px;
+  }
+  
+  /* Ajoutez des styles spécifiques à la version téléphone */
+  @media screen and (max-width: 767px) {
+    .za {
+      
+      margin-left: 200px;
+      padding-left: 10px; /* Ajustez la marge intérieure pour les écrans de téléphone */
+    }
+  
+    .z2 {
+      margin-left:  137px;
+    }
+  
+    .z3 {
+      margin-left: 45px;
+    }
+    
+  }
+  
+  /* Ajoutez d'autres styles si nécessaire */
+  

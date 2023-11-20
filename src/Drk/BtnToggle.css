@@ -1,0 +1,32 @@
+/* BtnToggle.css */
+
+.btn-toggle {
+    background-color: #000000;
+    color: #fff;
+    padding: 8px 16px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    display: flex;
+    align-items: center;
+    position: fixed;
+    top: 20px; /* Ajout de cette ligne pour définir la distance depuis le haut de la fenêtre */
+    right: 10px; /* Ajout de cette ligne pour définir la distance depuis la droite de la fenêtre */
+    transition: background-color 0.3s ease;
+}
+
+.dark-btn {
+    background-color: aquamarine;
+}
+
+.btn-toggle svg {
+    margin-right: 8px;
+}
+
+/* Media Query for smaller screens */
+@media screen and (max-width: 768px) {
+    .btn-toggle {
+        font-size: 14px;
+        padding: 6px 12px;
+    }
+}

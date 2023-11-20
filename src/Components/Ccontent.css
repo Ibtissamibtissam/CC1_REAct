@@ -1,0 +1,19 @@
+/* Ajoutez ces styles à votre fichier CSS correspondant */
+
+h4 {
+    text-align: center;
+    margin-top: -30px;
+    color: rgb(7, 18, 18);
+  }
+  
+  /* Ajoutez une media query pour les écrans de téléphone */
+  @media screen and (max-width: 767px) {
+    h4 {
+      /* Ajoutez des styles spécifiques à la version téléphone ici */
+      margin-top: 35px; /* Ajustez la marge pour les écrans de téléphone */
+      font-size: 18px; /* Ajustez la taille de la police pour les écrans de téléphone */
+    }
+  }
+  
+  /* Ajoutez d'autres styles si nécessaire */
+  

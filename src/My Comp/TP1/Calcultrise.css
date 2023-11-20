@@ -1,0 +1,109 @@
+.contaire {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+
+#keypade {
+  background-color: #f2f2f2;
+  border: 2px solid #ccc;
+  border-radius: 10px;
+  padding: 20px;
+}
+
+#reslta {
+  width: calc(100% - 20px);
+  margin-bottom: 10px;
+  padding: 10px;
+  font-size: 18px;
+  background-color: #fff;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+}
+
+.zere, #ega {
+  width: 50px;
+  height: 50px;
+  margin: 5px;
+  font-size: 18px;
+  background-color: #4CAF50;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.zere:hover, #ega:hover {
+  background-color: #45a049;
+}
+
+.zere.operator, #ega.operator {
+  background-color: gold;
+}
+
+.zere.operator:hover, #ega.operator:hover {
+  background-color: #cc9900;
+}
+
+#C {
+  width: 100px;
+  height: 50px;
+  margin: 5px;
+  font-size: 18px;
+  cursor: pointer;
+  background-color: #f44336;
+  color: #fff;
+  border: none;
+  border-radius: 5px;
+}
+
+#C:hover {
+  background-color: #d32f2f;
+}
+
+#b {
+  width: 100px;
+  height: 50px;
+  margin: 5px;
+  font-size: 18px;
+  cursor: pointer;
+  background-color: #3498db;
+  color: #fff;
+  border: none;
+  border-radius: 5px;
+}
+
+#b:hover {
+  background-color: #2980b9;
+}
+
+#ega {
+  background-color: #007bff; /* Adjust color as needed */
+  color: white;
+  font-size: 18px;
+  border: none;
+  border-radius: 5px;
+  padding: 10px;
+  cursor: pointer;
+  width: 120px;
+}
+
+#ega:hover {
+  background-color: #0056b3; /* Adjust hover color as needed */
+}
+#egal {
+  width: 73px;
+  height: 50px;
+  margin: 5px;
+  font-size: 18px;
+  cursor: pointer;
+  background-color: #e46658;
+  color: #fff;
+  border: none;
+  border-radius: 5px;
+}
+
+#egal:hover {
+  background-color: #c0392b;
+}

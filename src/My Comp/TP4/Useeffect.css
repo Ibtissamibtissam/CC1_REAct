@@ -1,0 +1,55 @@
+/* Style.css */
+
+body {
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  background: linear-gradient(45deg, #ff00ffe2, #b8efab, #8fff66, rgb(51, 255, 105)); /* Updated gradient colors */
+  background-size: 400% 400%; /* Increase the size to accommodate multiple colors */
+  animation: gradientChange 10s infinite; /* Change '10s' to the desired duration */
+}
+
+@keyframes gradientChange {
+  0% {
+    background-position: 0% 50%; /* Starting position of the gradient */
+  }
+  25% {
+    background-position: 100% 50%; /* Transition to the next color */
+  }
+  50% {
+    background-position: 0% 50%; /* Transition to the next color */
+  }
+  75% {
+    background-position: 100% 50%; /* Transition to the next color */
+  }
+  100% {
+    background-position: 0% 50%; /* Return to the starting position */
+  }
+}
+
+/* Add other styles for your body content as needed */
+
+
+/* Add other styles for your body content as needed */
+
+.useeffect-container {
+    text-align: center;
+    margin: 30px;
+  }
+  
+  
+  
+  img {
+    max-width: 100%;
+    height: 400px;
+    width: 600px;
+    display: block;
+    margin: 0 auto;
+    border: 1px solid #ddd;
+    border-radius: 8px;
+  }
+  @media (max-width: 768px) {
+    .useeffect-container{
+        margin-top: 10px;
+    }
+  }

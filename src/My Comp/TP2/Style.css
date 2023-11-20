@@ -1,0 +1,26 @@
+/* Style.css */
+
+.slider {
+  position: relative;
+  width: 1000px; /* Adjust the width of the slider container */
+  margin: 20px auto; /* Center the slider */
+}
+
+#img {
+  width: 1000px;
+  display: block;
+  margin-top:-60px ;
+}
+#b img{
+  margin-left: -170px;
+  padding-top: -25px;
+  border: none;
+}
+#c img{ 
+  margin-left: 160px;
+  margin-top: -410px;
+  border: none;
+}
+
+
+/* Add more styles as needed */

@@ -1,0 +1,87 @@
+
+/* Add a container to center elements */
+.container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+  
+  padding: 20px;
+  width: 450px; /* You can adjust the width as needed */
+  margin: 0 auto; /* Center the container horizontally */
+  border-radius: 5px;
+}
+#a{
+  width: 290px;
+  height:30px;
+  
+}
+h1 {
+  color:black; /* Header text color */
+}
+
+form {
+  margin: 10px 0;
+}
+
+input[type="text"] {
+  width: 90%;
+  /* Adjust the width of the text input */
+  padding: 5px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+}
+
+input[type="button"] {
+  background-color: rgb(109, 2, 2); /* Background color for the "Add" button */
+  color: white;
+  border: none;
+  border-radius: 5px;
+  padding: 10px 20px;
+  margin-left: 10px;
+  cursor: pointer;
+}
+input[type="button"]:hover{
+  background-color:rgb(36, 82, 82);
+}
+ul {
+  list-style: none;
+  padding: 0;
+}
+
+span {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 95%; /* Adjust the width of list items */
+  margin: 5px 0;
+   /* Background color for list items */
+  padding: 10px;
+  border-radius: 5px;
+  box-shadow: 20 12px 4px rgba(157, 32, 32, 0.1);
+  
+}
+
+button {
+  background-color: #28a745; /* Background color for the "Save" button */
+  color: white;
+  border: none;
+  border-radius: 5px;
+  padding: 15px 10px;
+  margin-left: 10px;
+  cursor: pointer;
+}
+
+button:hover {
+  background-color: #19692b; /* Change the background color on hover */
+  
+}
+
+#bb {
+  /* Add your styles for the input with id 'bb' here */
+  width: 90%; /* Example: Make it full-width */
+  padding: 5px; /* Example: Add padding */
+  margin-top: -35px; /* Example: Add margin-top */
+  /* Add any other styles you want */
+}
+
